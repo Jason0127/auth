@@ -51,7 +51,7 @@ app.post('/api/user/login', (req, res)=>{
         
     })
 })
-
+// commit
 app.get('/user/profile',auth, (req, res)=>{
    res.status(200).send(req.token);
 
